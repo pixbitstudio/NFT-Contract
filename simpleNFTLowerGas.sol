@@ -15,6 +15,8 @@ contract SimpleNftLowerGas is ERC721, Ownable {
   using Counters for Counters.Counter;
 
   Counters.Counter private supply;
+  
+  //change the below files before deploying as per your requirement
 
   string public uriPrefix = "";
   string public uriSuffix = ".json";
