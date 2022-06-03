@@ -12,7 +12,9 @@ import "@openzeppelin/contracts/access/Ownable.sol"; //Import locally while runn
 
 contract NFT is ERC721Enumerable, Ownable {
   using Strings for uint256;
-
+  
+  
+  //change the below files before deploying as per your requirement
   string baseURI;
   string public baseExtension = ".json";
   uint256 public cost = 0.05 ether;
